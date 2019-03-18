@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 name: Less Or More
 email: luoyan35714@126.com
@@ -24,3 +25,6 @@ markdown: kramdown
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
+=======
+theme: jekyll-theme-merlot
+>>>>>>> bed378feafca0785c4710df56db9856baca32f59
