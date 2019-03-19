@@ -8,7 +8,7 @@
 # Site settings
 title:            My Blog
 subtitle:         work hard, play hard !
-description:      This is ny blog website
+description:      This is my blog website
 keywords:         work for yourself !
 language:         "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
 
@@ -16,7 +16,7 @@ baseurl:          /kleinzcy.github.io # the subpath of your site, e.g. /blog
 url:              https://kleinzcy.github.io
 permalink:        /blog/:categories/:title
 cover:            /assets/mountain-cover.jpg
-disqus_shortname: "jekylldecent"
+disqus_shortname: "chuyu zhang"
 
 # Build settings
 sass:
