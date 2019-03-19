@@ -5,7 +5,7 @@ default:                                                      # Fallback if noth
   picture:      /assets/timg.jpg                              # OPTIONAL: author picture
   bio:          This is my bio!                               # OPTIONAL: text below author name in posts
   location:     China                                         # OPTIONAL: used to display location of the author
-  website:      kleinzcy.github.io                    				# OPTIONAL: link to the author of a post
+  website:      kleinzcy.github.io                    			  # OPTIONAL: link to the author of a post
   email:        klein.whu@gmail.com                           # OPTIONAL: used in the about page
   twitter:                                                    # OPTIONAL: used in the about page
   linkedin:                                                   # OPTIONAL: used in the about page
