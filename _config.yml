@@ -12,7 +12,7 @@ description:      This is my blog website
 keywords:         work for yourself !
 language:         "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
 
-baseurl:          /blog # the subpath of your site, e.g. /blog
+baseurl:          /kleinzcy.github.io # the subpath of your site, e.g. /blog
 url:              https://kleinzcy.github.io
 permalink:        /blog/:categories/:title
 cover:            /assets/mountain-cover.jpg
