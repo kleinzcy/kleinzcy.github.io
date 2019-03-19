@@ -2,7 +2,7 @@ default:                                                      # Fallback if noth
   initial:      chuyu zhang                                   # used for author lookup in posts and for first two characters in the about page back button
   name:         chuyu zhang                                   # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
-  picture:      /assets/johndoe.jpg                           # OPTIONAL: author picture
+  picture:      /assets/timg.jpg                           # OPTIONAL: author picture
   bio:          This is my bio!                               # OPTIONAL: text below author name in posts
   location:     China                                         # OPTIONAL: used to display location of the author
   website:      kleinzcy.github.io                    				# OPTIONAL: link to the author of a post
