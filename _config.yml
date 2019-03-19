@@ -16,7 +16,7 @@ baseurl:          /kleinzcy.github.io # the subpath of your site, e.g. /blog
 url:              https://kleinzcy.github.io
 permalink:        /blog/:categories/:title
 cover:            /assets/mountain-cover.jpg
-disqus_shortname: "chuyu zhang"
+disqus_shortname: "chuyu"
 
 # Build settings
 sass:
