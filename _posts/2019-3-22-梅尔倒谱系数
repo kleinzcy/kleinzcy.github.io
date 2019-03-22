@@ -1,0 +1,51 @@
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script> 
+<!-- mathjax config similar to math.stackexchange --> 
+<script type="text/x-mathjax-config"> 
+MathJax.Hub.Config({ 
+    jax: ["input/TeX", "output/HTML-CSS"], 
+    tex2jax: { 
+        inlineMath: [ ['$', '$'] ], 
+        displayMath: [ ['$$', '$$']], 
+        processEscapes: true, 
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }, 
+    messageStyle: "none", 
+    "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] } 
+}); 
+</script>
+# Mel Frequency Cepstral Coefficient (MFCC)
+
+这是我写的第二篇博客，这篇博客主要介绍MFCC，也是总结目前所学的《语音信号处理》知识。
+
+很多语音自动识别系统（ASR）中，第一步就是提取语音特征，提取特征是为了提取语音中具有分辨性的信息，去除情绪、噪声等。
+
+为了理解语音模型，我们先来理解一下声道模型。
+
+MFCC特征在语音识别系统中广泛使用。它由Davis和Mermelstein在二十世纪九十年代引入，并成为state-of-art，当然，后续的深度学习是另话了。在MFCC此之前，还有LPCC特征，下一篇文章将介绍LPCC。
+
+
+## 什么是MFCC，怎样计算它?
+首先，给出MFCC的计算过程，后续会具体说明每一步。
+
+1. 将信号分帧，这是所有语音处理的第一步.
+
+2. 每一帧做DFT变换，得到离散频谱.
+
+3. 计算梅尔滤波器组，对信号滤波，并计算每个滤波器滤波之后的能量总和.
+
+4. 对所有的能量总和取对数.
+
+5. 对上述的对数能量做DCT变换.
+
+6. 保留DCT变换后，前12-13个系数，即为梅尔系数.
+
+得到梅尔系数后，通常会取一阶差分和二阶差分作为动态特征，一帧的总能量也会作为特征。
+
+## 具体步骤
+
+第一步，对信号分帧（分帧是为了方便处理）。通常一帧20-40ms（标准的是25ms),对于16k采样率来说，也就是320-640个采样点，每一帧10ms,步长也就是160个采样点。
+
+第二步，对每一帧信号做N点离散傅里叶变换，N=512,取前257个系数。
+
+$S_i(k)$
+
+## Implementation steps
