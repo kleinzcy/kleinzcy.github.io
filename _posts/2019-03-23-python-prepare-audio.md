@@ -1,7 +1,7 @@
 ---
 title: python语音处理
 layout: post
-categories: speech signal processing
+categories: "speech signal processing"
 tags: 原创
 ---
 这是一篇python语音处理基础指南，旨在安装python以及一些语音包。
