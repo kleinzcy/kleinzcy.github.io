@@ -24,7 +24,7 @@ tags: 原创
 上一步完成后，会出现一个token，点击create token，会自动链接到你的github，按照下图创建创建一个token。
 
 <figure>
-   <img src="{{ "/media/img/Jeklly_writer_token.JPG" | absolute_url }}" />
+   <img src="{{ "/media/img/Jekyll_writer_token.JPG" | absolute_url }}" />
    <figcaption>点击github</figcaption>
 </figure>
 
