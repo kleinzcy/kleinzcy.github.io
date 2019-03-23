@@ -17,7 +17,7 @@ tags: 原创
 解压文件，点击文件里面Jekyll Writer.exe。点击Account，会看到github的图标。
 
 <figure>
-   <img src="{{ "/media/img/Jeklly_writer.JPG" | absolute_url }}" />
+   <img src="{{ "/media/img/Jekyll_writer.JPG" | absolute_url }}" />
    <figcaption>点击github</figcaption>
 </figure>
 
