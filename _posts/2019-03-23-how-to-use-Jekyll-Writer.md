@@ -25,7 +25,6 @@ tags: 原创
 
 <figure>
    <img src="{{ "/media/img/Jekyll_writer_token.JPG" | absolute_url }}" />
-   <figcaption>点击github</figcaption>
 </figure>
 
 将生成的token复制粘贴到Jekyll Writer。就会出现你的账户，扫描你的repo，会自动找到你的网站repo，现在就可以在Jekyll Writer中写文章，并直接上传到自己的网站了。
