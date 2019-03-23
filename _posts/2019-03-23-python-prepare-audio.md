@@ -1,9 +1,12 @@
 ---
-title: python语音处理
-layout: post
-categories: "speech signal processing"
-tags: 原创
+layout:            post
+title:             "python语音处理"
+menutitle:         "python语音处理"
+category:          "speech signal processing"
+author:            chuyu zhang
+tags:              原创
 ---
+
 这是一篇python语音处理基础指南，旨在安装python以及一些语音包。
 
 ## python安装
