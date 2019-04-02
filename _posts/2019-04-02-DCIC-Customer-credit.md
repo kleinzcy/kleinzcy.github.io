@@ -53,3 +53,18 @@ author: chuyu zhang
    ![]({{ "/media/img/IMG_20190402_095503.jpg" | absolute_url }})
    ![]({{ "/media/img/IMG_20190331_210846.jpg" | absolute_url }})
 </div>
+
+<div class="album">
+   <figure>
+      <img src="{{ "/media/img/mountain1.jpg" | absolute_url }}" />
+      <figcaption>Mountain and lake</figcaption>
+   </figure>   
+   <figure>
+      <img src="{{ "/media/img/mountain2.jpg" | absolute_url }}" />
+      <figcaption>On top of the mountain!</figcaption>
+   </figure>   
+   <figure>
+      <img src="{{ "/media/img/mountain3.jpg" | absolute_url }}" />
+      <figcaption>What a view</figcaption>
+   </figure>
+</div>
