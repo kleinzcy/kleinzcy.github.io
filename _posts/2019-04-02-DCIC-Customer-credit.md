@@ -49,12 +49,18 @@ author: chuyu zhang
 奉上相册
 <div class="album">
    <figure>
-      <img src="{{ "/media/img/IMG_20190401_132838.jpg" | absolute_url }}" />
+      <img src="{{ "/media/img/IMG_20190331_210846.jpg" | absolute_url }}" />
    </figure>   
    <figure>
-      <img src="{{ "/media/img/IMG_20190401_132838.jpg" | absolute_url }}" />
+      <img src="{{ "/media/img/IMG_20190401_132547.jpg" | absolute_url }}" />
    </figure>   
    <figure>
-      <img src="{{ "/media/img/IMG_20190401_132838.jpg" | absolute_url }}" />
+      <img src="{{ "/media/img/IMG_20190401_133200.jpg" | absolute_url }}" />
    </figure>
+   <figure>
+      <img src="{{ "/media/img/IMG_20190401_084335.jpg" | absolute_url }}" />
+   </figure>  
+   <figure>
+      <img src="{{ "/media/img/IMG_20190402_095503.jpg" | absolute_url }}" />
+   </figure>  
 </div>
