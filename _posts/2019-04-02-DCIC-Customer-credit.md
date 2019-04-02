@@ -45,3 +45,16 @@ author: chuyu zhang
 进了一号楼，去问了前台能不能参观，她说不能，我就打道回府了。
 
 **微软亚洲研究院，我会回来了，明日之星，我会来的。丹棱街，等着我**
+
+奉上相册
+<div class="album">
+   <figure>
+      <img src="{{ "/media/img/IMG_20190401_132838.jpg" | absolute_url }}" />
+   </figure>   
+   <figure>
+      <img src="{{ "/media/img/IMG_20190401_132838.jpg" | absolute_url }}" />
+   </figure>   
+   <figure>
+      <img src="{{ "/media/img/IMG_20190401_132838.jpg" | absolute_url }}" />
+   </figure>
+</div>
