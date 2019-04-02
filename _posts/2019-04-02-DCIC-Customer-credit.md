@@ -44,27 +44,4 @@ author: chuyu zhang
 
 进了一号楼，去问了前台能不能参观，她说不能，我就打道回府了。
 
-微软亚洲研究院，我会回来了，明日之星，我会来的。
-
-<div class="album">
-   ![]({{ "/media/img/IMG_20190401_084335.jpg" | absolute_url }})
-   ![]({{ "/media/img/IMG_20190401_132547.jpg" | absolute_url }})
-   ![]({{ "/media/img/IMG_20190401_133200.jpg" | absolute_url }})
-   ![]({{ "/media/img/IMG_20190402_095503.jpg" | absolute_url }})
-   ![]({{ "/media/img/IMG_20190331_210846.jpg" | absolute_url }})
-</div>
-
-<div class="album">
-   <figure>
-      <img src="{{ "/media/img/mountain1.jpg" | absolute_url }}" />
-      <figcaption>Mountain and lake</figcaption>
-   </figure>   
-   <figure>
-      <img src="{{ "/media/img/mountain2.jpg" | absolute_url }}" />
-      <figcaption>On top of the mountain!</figcaption>
-   </figure>   
-   <figure>
-      <img src="{{ "/media/img/mountain3.jpg" | absolute_url }}" />
-      <figcaption>What a view</figcaption>
-   </figure>
-</div>
+**微软亚洲研究院，我会回来了，明日之星，我会来的。丹棱街，等着我**
