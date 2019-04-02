@@ -1,7 +1,7 @@
 ---
 title: DCIC2019-消费者画像
 layout: post
-categories: 'Data, Mining'
+categories: 'Data Mining'
 tags: 原创
 ---
 **写在前面**：这是第一次数据比赛进前排，还只身去了北京参加答辩，这对于我来说是一个起点，是一个重大转折。在北京的时候，去北大听了一节课，也有些感受，后续会提到。这篇博客，主要总结比赛经验与比赛收获。
