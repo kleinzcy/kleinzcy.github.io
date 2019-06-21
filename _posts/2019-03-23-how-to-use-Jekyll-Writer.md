@@ -2,6 +2,7 @@
 title: 怎样使用Jekyll Writer
 layout: post
 categories: github
+author: chuyuzhang
 tags: 原创
 ---
 用markdown写blog不方便管理，每次写完都要再次提交，有点麻烦，Jekyll Writer解决了这个问题。
