@@ -1,5 +1,5 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      chuyu zhang                                   # used for author lookup in posts and for first two characters in the about page back button
+  initial:      jdecent                                       # used for author lookup in posts and for first two characters in the about page back button
   name:         chuyu zhang                                   # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/timg.jpg                              # OPTIONAL: author picture
