@@ -27,12 +27,11 @@ jdecent:
   initial:      jdecent
   name:         "Jekyll Decent"       
   cover:        /assets/mountain-alternative-cover.jpg  
-  picture:      /assets/johndoe.jpg  
+  picture:      /assets/timg.jpg  
   bio:          This is my bio!
-  location:     Germany
-  email:        "-"   
-  twitter:      "-"    
-  twitch:       "-"
+  location:     Wuhan
+  email:        "klein.whu@gmail.com"   
+
 jwillmer:
   initial:      jwillmer
   name:         "Jens Willmer"        
