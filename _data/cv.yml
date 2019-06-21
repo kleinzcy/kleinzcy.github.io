@@ -10,12 +10,10 @@ chuyuzhang:
     employment:
 
     projects:
-        - time:             "3 months in 2015"
-          team:             "Team of 2"
-          title:            "Software Evaluation"
-          technologies:     "Recruting, .NET"
+        - time:             "2017-2018"
+          team:             "Team of 5"
+          title:            "Shared bicycle violation detection system based on yolo"
+          technologies:     "DL,opencv,CV"
           responsibilities:
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."
-            
+            - "Responsible for tx2 environment installation"
+            - "Responsible for the architecture of the entire project"     
