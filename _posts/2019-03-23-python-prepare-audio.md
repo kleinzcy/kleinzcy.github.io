@@ -3,7 +3,7 @@ layout:            post
 title:             "python语音处理"
 menutitle:         "python语音处理"
 category:          "speech signal processing"
-author:            chuyu zhang
+author:            chuyuzhang
 tags:              原创
 ---
 
