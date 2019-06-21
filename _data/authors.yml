@@ -32,12 +32,11 @@ jdecent:
   location:     Wuhan
   email:        "klein.whu@gmail.com"   
 
-jwillmer:
+chuyu:
   initial:      jwillmer
-  name:         "Jens Willmer"        
-  picture:      /assets/jwillmer.jpg  
+  name:         "chuyu zhang"        
+  picture:      /assets/timg.jpg  
   bio:          All about technology 
   location:     Germany 
-  website:      "http://jwillmer.de/cv" 
-  twitter:      jenswillmer
-  github:       jwillmer
+  website:      "https://kleinzcy.github.io/cv" 
+  github:       https://github.com/kleinzcy
