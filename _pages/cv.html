@@ -21,7 +21,7 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
     <div class="content">
         <ul>
             {% for skill in cv.skills %}
-            <li>{{ skill }}python</li>
+            <li>{{ skill }}</li>
             {% endfor %}
         </ul>
     </div>
@@ -33,9 +33,9 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
     </div>
     {% for entry in cv.education %}   
     <dl>
-        <dt class="time">{{entry.time}}2016.9-2020.6</dt>
+        <dt class="time">{{entry.time}}</dt>
         <dd>
-            <h3>{{entry.location}}wuhan</h3>
+            <h3>{{entry.location}}</h3>
             <p>{{entry.description}}</p>
         </dd>
     </dl>
