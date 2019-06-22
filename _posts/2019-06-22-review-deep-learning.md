@@ -18,7 +18,6 @@ author: chuyuzhang
   作者认为深度学习就是表征学习，组合多层非线性模型来表达高层抽象的特征，层数足够的情况下，非常复杂的函数都可以学习到。
 
 * The conventional option is to hand design good feature extractors, which requires a considerable amount of engineering skill and domain expertise. But this can all be avoided if good features can be learned automatically using a general-purpose learning procedure. This is the key advantage of deep learning.
-* 
   这是深度学习在监督学习中如此成功的主要原因。传统的机器学习是要手工设计特征，这需要领域知识和工程技能，深度学习能自动学习特征，从而避免繁杂的特征工程。
 
 * Recent theoretical and empirical results strongly suggest that local minima are not a serious issue in general. Instead, the landscape is packed with a combinatorially large number of saddle points where the gradient is zero, and the surface curves up in most dimensions and curves down in the remainder. The analysis seems to show that saddle points with only a few downward curving directions are present in very large numbers, but almost all of them have very similar values of the objective function. Hence, it does not much matter which of these saddle points the algorithm gets stuck at.
@@ -27,9 +26,9 @@ author: chuyuzhang
 
 * There are four key ideas behind ConvNets that take advantage of the properties of natural signals: local connections, shared weights, pooling and the use of many layers。
 
- First, in array data such as images, local groups of values are often highly correlated, forming distinctive local motifs that are easily detected. Second, the local statistics of images and other signals are invariant to location. 
+  First, in array data such as images, local groups of values are often highly correlated, forming distinctive local motifs that are easily detected. Second, the local statistics of images and other signals are invariant to location. 
 
- Although the role of the convolutional layer is to detect local conjunctions of features from the previous layer, the role of the pooling layer is to merge semantically similar features into one
+  Although the role of the convolutional layer is to detect local conjunctions of features from the previous layer, the role of the pooling layer is to merge semantically similar features into one
 
   这里指出，卷积神经网络的四个特点，局部连接、共享权重、池化、多层。后面一句话，给出了局部连接和共享权重的原因，最后一句话指出卷积和池化的区别。
 
