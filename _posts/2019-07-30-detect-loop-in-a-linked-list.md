@@ -66,3 +66,4 @@ Flyod判圈算法利用了乌龟和兔子的距离是环长整数倍的性质求
 https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
 http://adam8157.info/blog/2015/08/why-does-tortoise-and-hare-algorithm-work/
 https://blog.csdn.net/u011221820/article/details/78821464
+http://zhengyhn.github.io/post/algorithm/brent.loop/
