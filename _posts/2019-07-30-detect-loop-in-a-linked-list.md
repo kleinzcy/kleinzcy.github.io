@@ -40,28 +40,25 @@ math: 'true'
 
 ### 环的起点
 Flyod判圈算法利用了乌龟和兔子的距离是环长整数倍的性质求起点，所以可以让乌龟回到起点，兔子回到距离起点环长距离的节点，随后与Floyd算法一样。
-
-<pre class="line-numbers language-javascript">bool hasCycleBrent(ListNode *head) {
-      ListNode *p1 = head;
-      ListNode *p2 = head;
-      int steps = 0;
-      int limit = 2;
-      while (p1 != NULL && p2 != NULL) {
-        p1 = p1->next;
-        if (p1 == p2) {
-          return true;
-        }
-        ++steps;
-        if (steps == limit) {
-          p2 = p1;
-          steps = 0;
-          limit *= 2;
-        }
-      }
-      return false;
-    };</code></pre>
-
-
+<pre class="line-numbers language-javascript"><code>bool hasCycleBrent(ListNode *head) {
+   ListNode *p1 = head;
+   ListNode *p2 = head;
+   int steps = 0;
+   int limit = 2;
+   while (p1 != NULL && p2 != NULL) {
+      p1 = p1->next;
+      if (p1 == p2) {
+          return true;}
+      ++steps;
+      if (steps == limit) {
+        p2 = p1;
+        steps = 0;
+        limit *= 2;
+       }
+     }
+    return false;
+}</code></pre>
+ 
 ## leetcode题目分析
 直接参考这个题：[寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-by-leetcode/)
 
