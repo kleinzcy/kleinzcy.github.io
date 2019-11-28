@@ -18,6 +18,9 @@ permalink:        /blog/:categories/:title
 cover:            /assets/mountain-cover.jpg
 disqus_shortname: "CY"
 
+# Disqus settings（https://disqus.com/）
+disqus_username: chuyuzhang
+
 # Build settings
 sass:
     style: compressed
