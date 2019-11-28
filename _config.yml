@@ -16,10 +16,10 @@ baseurl:          # the subpath of your site, e.g. /blog
 url:              https://kleinzcy.github.io
 permalink:        /blog/:categories/:title
 cover:            /assets/mountain-cover.jpg
-disqus_shortname: "CY"
+# disqus_shortname: "CY"
 
 # Disqus settings（https://disqus.com/）
-disqus_username: chuyuzhang
+# disqus_username: chuyuzhang
 
 # Build settings
 sass:
