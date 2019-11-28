@@ -7,6 +7,10 @@ chuyuzhang:
         - time:             "2016 - 2020"
           location:         "Wuhan University"
           description:      "Department of Electronic Information Engineering, School of Electronics and Information Technology"
+          
+        - time:             "2020 - "
+          location:         "Shanghai Tech University"
+          description:      "SIST, Plus lab, supervised by Xuming He"
     employment:
 
     projects:
