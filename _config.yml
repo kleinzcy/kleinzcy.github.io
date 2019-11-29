@@ -16,7 +16,7 @@ baseurl:          # the subpath of your site, e.g. /blog
 url:              https://kleinzcy.github.io
 permalink:        /blog/:categories/:title
 cover:            /assets/mountain-cover.jpg
-# disqus_shortname: "CY"
+disqus_shortname: "CY"
 
 # Disqus settings（https://disqus.com/）
 # disqus_username: chuyuzhang
@@ -45,5 +45,5 @@ compress_html:
   startings: [head, body]
 
 # Google Analytics
-ga_track_id: 'UA-153556378-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+# ga_track_id: 'UA-153556378-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto
