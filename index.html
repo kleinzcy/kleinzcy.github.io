@@ -126,6 +126,51 @@
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
+                <!-- NCDPC -->
+
+                <tr onmouseout="ncd_stop()" onmouseover="ncd_start()">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="center">
+                            <div class="two" id='ncd_image'>
+                                <video width=100% height=100% muted autoplay loop>
+                                    <source src="images/NCDPC_video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <img src='images/NCDPC.jpg' width="160">
+                        </div>
+                        <script type="text/javascript">
+                            function ncd_start() {
+                                document.getElementById('ncd_image').style.opacity = "1";
+                            }
+
+                            function ncd_stop() {
+                                document.getElementById('ncd_image').style.opacity = "0";
+                            }
+
+                            ncd_stop()
+                        </script>
+                    </td>
+
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+
+                        <a href="pub/NCD.pdf">
+                    <span class="papertitle">
+                      Dual-level Adaptive Self-Labeling for Novel Class Discovery in Point Cloud Segmentation
+                    </span>
+                        </a>
+                        <br>
+                        Ruijie Xu,
+                        <a href="https://scholar.google.com/citations?user=V7IktkcAAAAJ"><strong>Chuyu Zhang*</strong></a>,
+                        Hui Ren,
+                        <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/hexm/index.html">Xuming He</a>
+                        <br>
+                        ECCV 2024
+<!--                        In review of <em>ICLR</em>, 2024-->
+                        <br>
+                        <p></p>
+                    </td>
+                </tr>
 
                 <!-- InternLM2 -->
                 <tr>
@@ -229,52 +274,6 @@
                         <a href="https://arxiv.org/abs/2404.03446" target="_blank">Paper</a>
                         /
                         <a href="https://github.com/rhfeiyang/SPPOT" target="_blank">Code</a>
-                        <p></p>
-                    </td>
-                </tr>
-
-                <!-- NCDPC -->
-
-                <tr onmouseout="ncd_stop()" onmouseover="ncd_start()">
-                    <td style="padding:20px;width:25%;vertical-align:middle">
-                        <div class="center">
-                            <div class="two" id='ncd_image'>
-                                <video width=100% height=100% muted autoplay loop>
-                                    <source src="images/NCDPC_video.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <img src='images/NCDPC.jpg' width="160">
-                        </div>
-                        <script type="text/javascript">
-                            function ncd_start() {
-                                document.getElementById('ncd_image').style.opacity = "1";
-                            }
-
-                            function ncd_stop() {
-                                document.getElementById('ncd_image').style.opacity = "0";
-                            }
-
-                            ncd_stop()
-                        </script>
-                    </td>
-
-                    <td style="padding:20px;width:75%;vertical-align:middle">
-
-                        <a href="pub/NCD.pdf">
-                    <span class="papertitle">
-                      Dual-level Adaptive Self-Labeling for Novel Class Discovery in Point Cloud Segmentation
-                    </span>
-                        </a>
-                        <br>
-                        Ruijie Xu,
-                        <a href="https://scholar.google.com/citations?user=V7IktkcAAAAJ"><strong>Chuyu Zhang*</strong></a>,
-                        Hui Ren,
-                        <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/hexm/index.html">Xuming He</a>
-                        <br>
-                        Under Review
-<!--                        In review of <em>ICLR</em>, 2024-->
-                        <br>
                         <p></p>
                     </td>
                 </tr>
